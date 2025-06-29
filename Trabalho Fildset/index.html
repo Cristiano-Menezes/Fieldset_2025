@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Formulário Completo</title>
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend class="title">Dados Pessoais</legend>
+      <fieldset>
+        <legend class="subTitle">Identificação</legend>
+        <div class="container01">
+          <label>Nome completo:</label>
+          <input type="text">
+        </div>
+        <div class="container02">
+          <div id="box01">
+            <label>Nacionalidade:</label>
+            <select>
+              <option>Brasileira</option>
+              <option>Estrangeira</option>
+            </select>
+          </div>
+          <div id="box01">
+            <label>CPF:</label>
+            <input type="number">
+          </div>
+          <div id="box01">
+            <label>Número do Passaporte:</label>
+            <input type="number">
+          </div>          
+        </div>
+      </fieldset>
+      <div class="container">
+        <fieldset style="width: 100%;">
+          <legend class="subTitle">Dados de Nascimento</legend>
+            <div class="container02" style="gap: 5px;">
+              <div id="box01">
+                <label>País:</label>
+                <select>
+                  <option>Argentina</option>
+                  <option>Bolívia</option>
+                  <option>Brasil</option>
+                  <option>Chile</option>
+                  <option>Colombia</option>
+                  <option>Equador</option>
+                  <option>Guiana</option>
+                  <option>Paraguai</option>
+                  <option>Peru</option>
+                  <option>Suriname</option>
+                  <option>Uruguai</option>
+                  <option>Venezuela</option>
+                  <option>Outro</option>
+                </select>
+              </div>
+              <div id="box01">
+                <label>UF:</label>
+                  <select>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                    <option>DF</option>
+                  </select>
+
+              </div>
+              <div id="box01">
+                <label>Cidade:</label>
+                <input type="text">
+              </div>
+              <div id="box01">
+                <label>Data:</label>
+                <input type="date">
+              </div>
+            </div>
+        </fieldset>
+        <fieldset>
+          <legend class="subTitle">Sexo</legend>
+          <div class="container01" style="align-items: flex-start;">
+            <label><input type="radio" name="check"> Feminino</label>
+            <label><input type="radio" name="check"> Masculino</label>
+          </div>
+        </fieldset>
+      </div>
+      <fieldset>
+          <legend class="subTitle">Identidade</legend>
+            <div class="container02" style="gap: 5px;">
+              <div id="box01">
+                <label>Número:</label>
+                <input type="number">
+              </div>
+              <div id="box01">
+                <label>Órgão Emissor:</label>
+                <input type="text">
+              </div>
+              <div id="box01">
+                <label>UF:</label>
+                  <select>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                    <option>DF</option>
+                  </select>
+
+              </div>
+              <div id="box01">
+                <label>Data:</label>
+                <input type="date">
+              </div>
+            </div>
+
+      </fieldset>
+      <fieldset>
+          <legend class="subTitle">Filiação</legend>
+            <div class="container02" style="gap: 5px;">
+              <div id="box01">
+                <label>Nome do Pai</label>
+                <input type="text">
+              </div>
+              <div id="box01">
+                <label>Nome da Mãe</label>
+                <input type="text">
+              </div>
+            </div>
+
+      </fieldset>
+    </fieldset>
+    <fieldset>
+      <legend class="title">Endereço</legend>
+      <fieldset>
+        <legend class="subTitle">Endereço Profissional</legend>
+        <div id="box01">
+          <label>Empresa/Instituição:</label>
+          <input type="text">
+        </div>
+        <div class="container02">
+          <div class="container01" style="padding: 0; gap: 10px;">
+            <div id="box01">
+              <label>Logradouro:</label>
+              <select>
+                <option>Avenida</option>
+                <option>Rua</option>
+                <option>Praça</option>
+                <option>Travessa</option>
+                <option>Alameda</option>
+                <option>Beco</option>
+                <option>Passagem</option>
+                <option>Entrada</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div id="box01">
+              <label>País:</label>
+              <select>
+                <option>Argentina</option>
+                <option>Bolívia</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Colombia</option>
+                <option>Equador</option>
+                <option>Guiana</option>
+                <option>Paraguai</option>
+                <option>Peru</option>
+                <option>Suriname</option>
+                <option>Uruguai</option>
+                <option>Venezuela</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div id="box01">
+              <label>DDD:</label>
+              <input type="number">
+            </div>
+          </div>
+          <div class="container01" style="padding: 0; width: 100%;">
+          <div class="container02">
+              <div id="box01">
+                <label">Endereço:</label>
+                <input type="text"  style="width: 100%;">
+              </div>
+              <div id="box01">
+                <label>Bairro:</label>
+                <input type="text">
+              </div>
+          </div>
+          <div class="container02">
+            <div id="box01">
+                <label>UF:</label>
+                  <select>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                    <option>DF</option>
+                  </select>
+              </div>
+            <div class="box01">
+              <label>Cidade:</label>
+              <input type="text">
+            </div>
+            <div class="box01">
+              <label>CEP:</label>
+              <input type="number">
+            </div>
+          </div>
+          <div class="container02">
+            <div id="box01">
+              <label>Fone:</label>
+              <input type="number">
+            </div>
+            <div id="box01">
+              <label>Ramal:</label>
+              <input type="number">
+            </div>
+            <div id="box01">
+              <label>Fax:</label>
+              <input type="number">
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="container02">
+          <div id="box01">
+            <label>Homepage Institucional:</label>
+            <input type="text">
+          </div>
+          <div id="box01">
+            <label>Email:</label>
+            <input type="email">
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend class="subTitle">Endereço Residêncial</legend>
+        <div class="container02">
+          <div class="container01" style="padding: 0; gap: 10px;">
+            <div id="box01">
+              <label>Logradouro:</label>
+              <select>
+                <option>Avenida</option>
+                <option>Rua</option>
+                <option>Praça</option>
+                <option>Travessa</option>
+                <option>Alameda</option>
+                <option>Beco</option>
+                <option>Passagem</option>
+                <option>Entrada</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div id="box01">
+              <label>País:</label>
+              <select>
+                <option>Argentina</option>
+                <option>Bolívia</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Colombia</option>
+                <option>Equador</option>
+                <option>Guiana</option>
+                <option>Paraguai</option>
+                <option>Peru</option>
+                <option>Suriname</option>
+                <option>Uruguai</option>
+                <option>Venezuela</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div id="box01">
+              <label>DDD:</label>
+              <input type="number">
+            </div>
+          </div>
+          <div class="container01" style="padding: 0; width: 100%;">
+          <div class="container02">
+              <div id="box01">
+                <label">Endereço:</label>
+                <input type="text"  style="width: 100%;">
+              </div>
+              <div id="box01">
+                <label>Bairro:</label>
+                <input type="text">
+              </div>
+          </div>
+          <div class="container02">
+            <div id="box01">
+                <label>UF:</label>
+                  <select>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                    <option>DF</option>
+                  </select>
+              </div>
+            <div class="box01">
+              <label>Cidade:</label>
+              <input type="text">
+            </div>
+            <div class="box01">
+              <label>CEP:</label>
+              <input type="number">
+            </div>
+          </div>
+          <div class="container02">
+            <div id="box01">
+              <label>Fone:</label>
+              <input type="number">
+            </div>
+            <div id="box01">
+              <label>Ramal:</label>
+              <input type="number">
+            </div>
+            <div id="box01">
+              <label>Fax:</label>
+              <input type="number">
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="container02">
+          <div id="box01">
+            <label>Homepage Pessoal:</label>
+            <input type="text">
+          </div>
+          <div id="box01">
+            <label>E-mail:</label>
+            <input type="email">
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+          <legend class="subTitle">Endereço Residêncial para Correspondência</legend>
+            <div class="container01" style="flex-direction: row; gap: 160px;">
+              <label><input type="radio" name="check"> Profissional</label>
+              <label><input type="radio" name="check"> Residêncial</label>
+            </div>
+      </fieldset>
+    </fieldset>
+
+      <fieldset>
+       <legend class="title">Formação Acadêmica/Titulação:</legend>
+       <div class="container01">
+          <fieldset>
+          <legend class="subTitle">Formação:</legend>
+          <div class="container02">
+            <div id="box01">
+                <label>Nível (Seu maior nível de Formação):</label>
+                <select>
+                  <option>Graduação</option>
+                  <option>Aperfeiçoamento</option>
+                  <option>Especialização</option>
+                  <option>Mestrado</option>
+                  <option>Doutorado</option>
+                </select>
+            </div>
+            <div id="box01">
+              <label">Carga Horária:</label>
+              <input type="text"  style="width: 100%;">
+            </div>
+          </fieldset>
+          <fieldset>
+                <legend class="subTitle">Instituição/Curso</legend>
+                  <div class="container01">
+                    <div id="box01">
+                      <label>Instituição</label>
+                      <input type="text">
+                    </div>  
+                     <div id="box01">
+                    <label>Nome do Curso:</label>
+                    <input type="text">
+                  </div>
+                  <div class="container02">
+                    <div id="box01">
+                      <label>Status do Curso:</label>
+                      <div class="box">
+                        <label><input type="radio" name="check"> Em andamento</label>
+                        <label><input type="radio" name="check"> Com título obtido</label>
+                      </div>
+                    </div>
+                    <div id="box01">
+                      <label>Bolsa:</label>
+                      <div class="box">
+                        <label><input name="confirmação" type="radio" value="Sim"> Sim</input></label>
+                        <label><input name="confirmação" type="radio" value="Não"> Não</input></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container02">
+                    <div id="box01">
+                      <label>Título da Monografia/Dissertação/Tese:</label>
+                      <input type="text">
+                    </div>
+                    <div id="box01">
+                      <label>Nome Completo do Orientador:</label>
+                      <input type="text">
+                     </div>
+                  </div>
+                  
+            <div class="container02">
+              <div id="box01">
+                <label>Entidade Financeira:</label>
+                <input type="text">
+              </div>
+          </fieldset>
+        </div>
+      </fieldset>
+      <fieldset>
+            <legend class="title">Atuação Profissional:</legend>
+              <fieldset>
+                <legend class="subTitle">Instituição de Trabalho:</legend>
+                  <div id="box01">
+                    <label>Instituição/Empresa:</label>
+                    <input type="text">
+                  </div>
+                  <div id="box01">
+                    <label>Sigla:</label>
+                    <input type="text">
+                  </div>
+              </fieldset>
+              <fieldset>
+                <legend class="subTitle">Atividade(s) Exercida(s) na Instituição:</legend>
+                  <div id="box01">
+                    <label><input type="checkbox"> Conselhos, comissões e consultoria</label>
+                    <label><input type="checkbox"> Direção e administração</label>
+                    <label><input type="checkbox"> Ensino</label>
+                    <label><input type="checkbox"> Estágio</label>
+                    <label><input type="checkbox"> Extensão universitária</label>
+                    <label><input type="checkbox"> Pesquisa e desenvolvimento</label>
+                    <label><input type="checkbox"> Serviços técnicos e especializados</label>
+                    <label><input type="checkbox"> Treinamentos ministrados</label>
+                    <label><input type="checkbox"> Outras atividades técnico-científicas</label>
+                  </div>
+              </fieldset>
+              <fieldset>
+                <legend class="subTitle">Vínculo Institucional:</legend>
+                <div class="container02">
+                      <div id="box01">
+                        <label>Período</label>
+                        <label><input type="radio" name="check"> Anterior</label>
+                        <label><input type="radio" name="check"> Atual</label>
+                      </div>
+                      <div id="box01">
+                        <label>Início:</label>
+                        <input type="date">
+                        <label>Fim:</label>
+                        <input type="date">
+                      </div>
+                    </div>
+                      <div class="container02">
+                        <div id="box01">
+                          <label>Tipo de Vínculo:
+                            <select>
+                              <option>Servidor Público</option>
+                              <option>Celetista</option>
+                              <option>Outro</option>
+                            </select>
+                          </label>
+                        </div>
+                        <div id="box01">
+                          <label>Carga Horária Semanal</label>
+                          <input type="number">
+                        </div>
+                      </div>
+          </fieldset>
+
+      
+
+  </form>
+</body>
+</html>
